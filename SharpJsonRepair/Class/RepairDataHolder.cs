@@ -1,4 +1,4 @@
-﻿namespace JsonRepairSharp.Class;
+﻿namespace SharpJsonRepair.Class;
 
 public class RepairDataHolder(string text)
 {

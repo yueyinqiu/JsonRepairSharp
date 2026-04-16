@@ -1,4 +1,4 @@
-﻿using JsonRepairSharp.Class;
+﻿using SharpJsonRepair.Class;
 
 namespace JsonRepairSharp.Tests;
 
