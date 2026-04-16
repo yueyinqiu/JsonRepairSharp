@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace JsonRepairSharp.Class.Helpers;
+namespace SharpJsonRepair.Class.Helpers;
 
 public static partial class StringHelper
 {

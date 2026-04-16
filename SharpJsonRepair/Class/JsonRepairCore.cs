@@ -1,9 +1,9 @@
 ﻿using System.Collections.Frozen;
 using System.Text.Json;
 using System.Text.RegularExpressions;
-using JsonRepairSharp.Class.Helpers;
+using SharpJsonRepair.Class.Helpers;
 
-namespace JsonRepairSharp.Class;
+namespace SharpJsonRepair.Class;
 
 public static partial class JsonRepairCore
 {

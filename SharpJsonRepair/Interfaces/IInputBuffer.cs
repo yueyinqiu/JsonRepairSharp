@@ -1,4 +1,4 @@
-﻿namespace JsonRepairSharp.Interfaces;
+﻿namespace SharpJsonRepair.Interfaces;
 
 public interface IInputBuffer
 {
