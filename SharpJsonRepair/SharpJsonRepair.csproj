@@ -6,8 +6,23 @@
 		<Nullable>enable</Nullable>
 	</PropertyGroup>
 
-	<ItemGroup>
-		<Folder Include="Class\Helpers\" />
-	</ItemGroup>
+	<PropertyGroup>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<!--
+		It could be, but disable it now.
+			<IsAotCompatible>true</IsAotCompatible>
+		-->
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<RepositoryUrl>https://github.com/Corona-Studio/JsonRepairSharp</RepositoryUrl>
+		<Authors>Corona Studio</Authors>
+		<Company>Corona Studio</Company>
+		<Product>SharpJsonRepair</Product>
+		<Copyright>Copyright © 2026 Corona Studio</Copyright>
+		<RepositoryType>git</RepositoryType>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	</PropertyGroup>
 
 </Project>
